@@ -15,6 +15,7 @@ class Solution:
             res = trace[res]
 
         return trace, res
+        #trace: ->{'A': 'B', 'C': 'D', 'B': 'E', 'E': 'C', 'D': 'F'}
 s = Solution()
 test = [["A", "B"], ["C", "D"], ["B", "E"], ["E", "C"], ["D", "F"]]
 print(s.destCity(test))     # ->D
