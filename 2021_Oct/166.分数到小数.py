@@ -6,7 +6,7 @@
 对于所有给定的输入，保证答案字符串的长度小于 10^4 。
 """
 """
-模拟除法，对余数乘10
+模拟除法，对余数乘10 
 """
 class Solution:
     def fractionToDecimal(self, numerator: int, denominator: int):
