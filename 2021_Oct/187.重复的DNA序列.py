@@ -55,4 +55,4 @@ class Solution:
 
 s = Solution()
 test = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
-print(s.findRepeatedDnaSequences2(test))
+print(s.findRepeatedDnaSequences2(test))    # -> ['AAAAACCCCC', 'CCCCCAAAAA']
